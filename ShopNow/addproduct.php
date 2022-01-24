@@ -6,7 +6,7 @@
                 product
               </button>
             </div>
-            <form action="" method="post" enctype="multipart/form-data">
+            <form action="upload.php" method="post" enctype="multipart/form-data">
               <div class="inputs mid">
                 <div class="input">
                   <label for="Name">Name</label>
@@ -43,7 +43,7 @@
                 </div>
                 <div class="input">
                   <label for="Image">Image</label>
-                  <input type="file" name="image" id="">
+                  <input type="file" accept="image/*" name="image" id="">
                 </div>
               </div>
             
